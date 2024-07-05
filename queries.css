@@ -44,7 +44,6 @@
     }
 }
 
-<<<<<<< HEAD
 
 @media (max-width: 480px) {
   header {
@@ -77,7 +76,7 @@
       grid-template-columns: 1fr;
   }
 }
-=======
+
 @media(max-width: 320px){
     .navmenu {
         position: absolute;
@@ -123,4 +122,6 @@
         right: 0;
     }
 }
->>>>>>> 75042c630a4c3825691c3302375bbd8fbf941023
+
+
+  

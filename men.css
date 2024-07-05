@@ -307,3 +307,129 @@ gap: 2rem;
         grid-template-columns: 1fr;
     }
   }
+
+  @media(max-width: 890px){
+    header{
+        padding: 20px 3%;
+        transition: .4s;
+
+    }
+}
+
+@media(max-width: 630px){
+    .main-text h1{
+        font-size: 50px;
+        transition: .4s;
+    }
+    .main-text p{
+        font-size: 18px;
+        transition: .4s;
+    }
+    .maint-btn{
+        padding: 10px 20px;
+        transition: .4s;
+    }
+}
+
+@media(max-width: 750px){
+    .navmenu {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 130vh;
+        background: #edfff1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 120px 30px;
+        transition: all .42s;
+    }
+    .navmenu a{
+        display: block;
+        margin: 18px 0;
+    }
+    .navmenu.open{
+        right: 0;
+    }
+}
+
+
+@media (max-width: 480px) {
+  header {
+      padding: 10px 5%;
+  }
+
+  .nav-icons i {
+      font-size: 20px;
+      margin-right: 10px;
+  }
+
+  .banner2 .banner-text h1 {
+      font-size: 20px;
+  }
+
+  .banner2 .banner-text h2 {
+      font-size: 16px;
+  }
+
+  .banner2 .banner-text button {
+      padding: 8px 16px;
+      font-size: 14px;
+  }
+
+  .products .row img {
+      max-width: 100%;
+  }
+
+  .contact-info {
+      grid-template-columns: 1fr;
+  }
+}
+
+@media(max-width: 320px){
+    .navmenu {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 130vh;
+        background: #edfff1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 120px 30px;
+        transition: all .42s;
+    }
+    .navmenu a{
+        display: block;
+        margin: 18px 0;
+    }
+    .navmenu.open{
+        right: 0;
+    }
+}
+
+@media(max-width: 480px){
+    .navmenu {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 130vh;
+        background: #edfff1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 120px 30px;
+        transition: all .42s;
+    }
+    .navmenu a{
+        display: block;
+        margin: 18px 0;
+    }
+    .navmenu.open{
+        right: 0;
+    }
+}
+
